@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Projeto</title>
+</head>
+<body>
+
+    <header id="header" class="header">
+        <a href="" class="logo"><img id="logo" src="src/logo.png" alt=""></a>
+
+        <div class="light-dark">
+            <img id="light-dark-btn" src="src/lua.png" alt="light-dark">
+        </div>
+    </header>
+
+    <section class="slide-section">
+        <div class="slide-container">
+            <button class="btn-slide btn-left" id="btn-slide-left"><img src="pre.png"></button>
+            <button class="btn-slide btn-right" id="btn-slide-right"><img src="next.png"></button>
+            <div id="slide-bar" class="slide-bar">
+                <div id="slide-gallery" class="slide-gallery">
+                    <!---->
+                    <a class="slide-item" href="">
+                        <img class="item-img" src="slides/s1.jpg">
+                    </a>
+                    <!---->
+                    <a class="slide-item" href="">
+                        <img class="item-img" src="slides/s2.jpg">
+                    </a>
+                    <!---->
+                    <a class="slide-item" href="">
+                        <img class="item-img" src="slides/s3.jpg">
+                    </a>
+                    <!---->
+                    <a class="slide-item" href="">
+                        <img class="item-img" src="slides/s4.jpg">
+                    </a>
+                    <!---->
+                    <a class="slide-item" href="">
+                        <img class="item-img" src="slides/s5.jpg">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <div id="produtos-container" class="produtos-container">
+        <div class="produtos-container-titulo">Lista de gatos</div>
+        <button class="produtos-container-button arrow-left"><img src="src/previous-arrow.png" alt=""></button>
+        <button class="produtos-container-button arrow-right"><img src="src/next-arrow.png" alt=""></button>
+        <div class="dragger">
+            <a href="" class="item">
+                <img src="figs/f1.jpg" alt="" disabled>
+                <div class="item-titulo">Gato laranja</div>
+            </a>
+            <a href="" class="item">
+                <img src="figs/f2.jpg" alt="" disabled>
+                <div class="item-titulo">Frajola filhote</div>
+            </a>
+            <a href="" class="item">
+                <img src="figs/f3.jpg" alt="" disabled>
+                <div class="item-titulo">Rajado triste</div>
+            </a>
+            <a href="" class="item">
+                <img src="figs/f4.jpg" alt="" disabled>
+                <div class="item-titulo">Rajado sério</div>
+            </a>
+            <a href="" class="item">
+                <img src="figs/f5.jpg" alt="" disabled>
+                <div class="item-titulo">Filhote fofinho</div>
+            </a>
+            <a href="" class="item">
+                <img src="figs/f6.jpg" alt="" disabled>
+                <div class="item-titulo">Cinza doido</div>
+            </a>
+            <a href="" class="item">
+                <img src="figs/f7.jpg" alt="" disabled>
+                <div class="item-titulo">Frajola deitadinho</div>
+            </a>
+            <a href="" class="item">
+                <img src="figs/f8.jpg" alt="" disabled>
+                <div class="item-titulo">Frajola deitadinho 2</div>
+            </a>
+            <a href="" class="item">
+                <img src="figs/f9.jpg" alt="" disabled>
+                <div class="item-titulo">Branquinho fofinho</div>
+            </a>
+            <a href="" class="item">
+                <img src="figs/f10.jpg" alt="" disabled>
+                <div class="item-titulo">Gato good vibes</div>
+            </a>
+        </div>
+    </div>
+
+    <script src="lightdark.js"></script>
+    <script src="slide.js"></script>
+    <script src="dragg.js"></script>
+    
+</body>
+</html>
